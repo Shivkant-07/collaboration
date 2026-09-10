@@ -1,0 +1,36 @@
+/* ==================== */
+/* GLOBAL STYLES (Dono me se koi bhi use kar sakta hai) */
+/* ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* ==================== */
+/* SHIVKANT KA CSS (Navbar & Header) */
+/* ==================== */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+
+/* ==================== */
+/* DOST KA CSS (Main Content & Footer) */
+/* ==================== */
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
