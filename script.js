@@ -1,9 +1,17 @@
 // ====================
 // SHIVKANT KA JAVASCRIPT
 // ====================
-function shivkantFunction() {
-    console.log("Shivkant wala logic yahan aayega");
-}
+
+   document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.querySelector(".btn");
+    
+    if (btn) {
+        btn.addEventListener("click", function () {
+            alert("Button clicked successfully! Welcome to our collaboration project.");
+        });
+    }
+});
+
 
 
 // ====================
